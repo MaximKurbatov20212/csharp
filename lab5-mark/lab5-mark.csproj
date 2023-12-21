@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>lab5_mark</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="lab1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\lab1\lab1\bin\Release\lab1.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
